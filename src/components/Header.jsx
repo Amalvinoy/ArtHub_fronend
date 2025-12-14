@@ -51,6 +51,10 @@ export default function Header() {
           <Link to="/profile" className="hover:text-orange-600 transition flex items-center gap-1">
             <User className="w-5 h-5" /> Profile
           </Link>
+
+          <Link to="/login" className="hover:text-orange-600 transition flex items-center gap-1">
+            <User className="w-5 h-5" /> Profile
+          </Link>
         </nav>
 
         {/* MOBILE MENU BUTTON */}
